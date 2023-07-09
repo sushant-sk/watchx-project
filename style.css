@@ -1,0 +1,231 @@
+html{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+
+    scroll-behavior: smooth;
+}
+
+body{
+    padding-bottom: 2%;
+}
+
+
+.naviagtion-bar{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.nav-link{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    width: 150px;
+    padding-right: 0%;
+}
+
+.sign-in{
+    width: auto;
+}
+
+
+.navbar-brand{
+    padding-left: 3%;
+    font-family: 'Belanosima', sans-serif;
+    font-size: 30px;
+    
+}
+
+.navbar-collapse{
+    padding-left: 45%;
+}
+
+@media only screen and (max-width: 1514px) {
+    .navbar-collapse{
+        padding-left: 35%;
+    }
+} 
+
+@media only screen and (max-width: 1172px) {
+    .navbar-collapse{
+        padding-left: 23%;
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1004px) {
+    .navbar-collapse{
+        padding-left: 15%;
+        max-width: 100%;
+
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .navbar-collapse{
+        padding-left: 3%;
+    }
+    .nav-link{
+        width: 120px;
+    }
+} 
+
+
+
+
+.samsung1{
+    height: 10px;
+    width: 50px;
+}
+
+
+/* 2nd division CSS starts here  */
+
+#second-division{
+    background-color: burlywood;
+    width: 100%;
+    height: 40px;
+}
+
+.cart_and_wishlist{
+    padding-top: 8px;
+    padding-left: 89%;
+}
+
+@media only screen and (max-width: 1480px) {
+    .cart_and_wishlist{
+        padding-left: 80%;   
+    }
+
+    .cart_and_wishlist{
+        padding-left: 69%;
+        padding-top: 12px;
+
+    }
+} 
+
+@media only screen and (max-width: 580px) {
+    #second-division{
+        height: 50px;
+    }
+}
+
+
+/* THIRD DIVISION CSS STARTS FROM HERE */
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%; 
+}
+
+.col-6{
+    flex-basis:50%;
+    min-width:300px;
+}
+
+.col-md-9 img{
+    width: 100%;
+    height: auto;
+}
+
+.col-md-3 h1{
+    font-size: 5vw;
+    padding-left: 5%;
+}
+
+
+
+@media only screen and (max-width: 1190px) {
+    
+    #third-division{
+        display: inline-block;
+    }
+    
+    .row{
+        margin-right: 0px;
+        margin-left: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .col-md-9{
+        width: 100%;
+        display: inline-block;
+        padding: 0%;
+
+    }
+
+    .col-md-9 img{
+        width: 100%;
+    }
+
+    .col-md-3 {
+        width: 100%;
+    }
+
+    .col-md-3 h1{
+        width: 100%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-left: 3%;
+        font-size: 5.2vw;
+        color: black;
+    }
+}
+
+
+/* fourth division css making starts hahahahah */
+
+div.card.text-center.latest-info-card{
+    width: 90%;
+    margin: auto;
+    margin-top: 1%;
+}
+
+
+/* fifth division css making starts hahaha */
+.col-sm-6 col-md-4 col-lg-3{
+    width: 100%;
+}
+
+.card{
+    width: 98%;
+}
+
+.img-part-of-card{
+    width: 100%;
+    height: 220px;
+}
+
+.card-img-top{
+    width: 100%;
+    padding: 5%;
+}
+
+.big-watch-img{
+    width: 85%;
+}
+
+
+@media only screen and (max-width: 576px) {
+    
+    .card{
+        width: 80%;
+        margin: 5%;
+    }
+    
+    .img-part-of-card{
+        width: 100%;
+        height: 300px;
+    }
+    .card-img-top{
+        width: 100%;
+        height: auto;
+    }
+
+    
+}

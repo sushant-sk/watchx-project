@@ -1,0 +1,41 @@
+body{
+    background-color: #EFCFA0;
+}
+.row{
+    justify-content: center;
+}
+
+.card{
+    background-color: aliceblue;
+    width: 70%;
+    justify-content: center;
+    /* margin-top: 2.5%; */
+    margin: 3%;
+}
+
+.box{
+    text-align: left;
+}
+
+.container{
+    margin-top: 2%;
+}
+
+.card-body{
+    padding: 6%;
+}
+
+.right-sec{
+    padding-top: 20%;
+}
+
+@media only screen and (max-width: 992px) {
+    .right-sec{
+        display: none;
+    }
+
+    .btn-outline-primary{
+        padding: 1%;
+    }
+}
+

@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watchx</title>
+
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+
+    <!-- BOOTSTRAP CSS CDN LINK -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <!-- BOOTSTRAP JS CDN LINK -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- GOOGLE FONTS CDN LINK -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+  <!-- NAVIGATION BAR -->
+  <div class="navigation-bar">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid " id="main_brand">
+      <a class="navbar-brand" onmouseover="hover_to_brown(this)" onmouseout=this.style.color="black">WATCHX<img src="watchicon.png" alt="" class="watch1"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+            <a class="nav-link" href="#home"><i class="fa-solid fa-house-user "></i>&nbsp;Home</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#brands" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Brands
+              </a>
+              <ul class="dropdown-menu" >
+                <li><a class="dropdown-item" href="#">Model&nbsp;<i class="fa-solid fa-a"></i></a></li>
+                <li><a class="dropdown-item" href="#">Model&nbsp;<i class="fa-solid fa-b"></i></a></li>
+                <li><a class="dropdown-item" href="#">Model&nbsp;<i class="fa-solid fa-c"></i></a></li>
+                <li><a class="dropdown-item" href="#">Model&nbsp;<i class="fa-solid fa-s"></i></a></li>
+              </ul> 
+            </li>
+            <a class="nav-link"  id="skills" href="support.html">Support</a>
+            <li class="nav-item navbutton">
+              <a class="nav-link sign-in"  target="_blank" href="signin.html"><button type="button" class="btn btn-outline-primary btn-sm">Sign in&nbsp;&nbsp;&nbsp;<i class="fa-regular fa-user"></i></button></a>
+            </li>
+        </div>
+      </div>
+    </div>
+  </nav>
+  </div>
+
+  <!-- 2nd division CONSISTS OF WISHLIST AND CARD -->
+  <div id="second-division">
+    <p class="cart_and_wishlist">
+      <i class="fa-sharp fa-regular fa-heart fa-2xl" style="color: #ffff;"></i>
+      &nbsp; &nbsp;
+      <i class="fa-solid fa-cart-shopping fa-2xl" style="color: #ffff;"></i>  
+    </p>
+  </div>
+
+  <div id="third-division">
+    <div class="row ">
+      <div class="col-md-9">
+        <img src="mainimg3.jpg" alt="" class="main-image">
+      </div>
+      <div class="col-md-3">
+          <h1>Get The Best Fit For You !
+            <button type="button" class="btn btn-outline-primary">Explore Now</button>
+          </h1>
+          
+      </div>
+    </div>
+  </div>
+
+  <br>
+
+  <section id="explore">
+  <div id="fourth-division explore">
+    <div class="card text-center latest-info-card">
+      <div class="card-header first-card-header" onmouseover="hover_on_card(this)" onmouseout="hover_to_back(this)">
+        <p >LATEST FLAGSHIP PRODUCT </p>
+      </div>
+      <div class="card-body first-card-body">
+        <h3 class="card-title">Order The Latest WATCHX</h3>
+        <h4 class="card-text">Enabling the age of technology.</h4>
+        <a href="#" class="btn btn-outline-primary">BOOK NOW</a>
+      </div>
+      <div class="card-footer" onmouseover="hover_on_card(this)" onmouseout="hover_to_back(this)">
+        <p>The epitome of watches</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <br>
+
+  <div class="container" id="fifth-division">
+    <div class="row gy-5 my-3">
+
+        <!-- CARD 1 -->
+        <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card">
+              <div class="img-part-of-card">
+                <img class="card-img-top big-watch-img" src="watch1.jpg" alt="image">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Model B-23</h5>
+                <p class="card-text">Amoled Display</p>
+                <p class="card-text">IP 68</p>
+                <p class="card-text">IP 68</p>
+                <a href="#" class="btn btn-outline-primary">Go somewhere</a>
+              </div>
+            </div>
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="card">
+            <div class="img-part-of-card">
+              <img class="card-img-top" src="watch2.jpg" alt="image">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Model C-21</h5>
+              <p class="card-text">Amoled Display</p>
+              <p class="card-text">IP 68</p>
+              <p class="card-text">IP 68</p>
+              <a href="#" class="btn btn-outline-primary">Go somewhere</a>
+            </div>
+          </div>
+      </div>
+
+      <!-- CARD 3 -->
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="card">
+          <div class="img-part-of-card">
+            <img class="card-img-top" src="watch3.png" alt="image">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Model A-22</h5>
+            <p class="card-text">Amoled Display</p>
+            <p class="card-text">IP 68</p>
+            <p class="card-text">IP 68</p>
+            <a href="#" class="btn btn-outline-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- CARD 4 -->
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="card">
+          <div class="img-part-of-card">
+            <img class="card-img-top big-watch-img" src="watch4.jpg" alt="image">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Model S-23</h5>
+            <p class="card-text">Amoled Display</p>
+            <p class="card-text">IP 68</p>
+            <p class="card-text">IP 68</p>
+            <a href="#" class="btn btn-outline-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- CARD 5 -->
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="card">
+          <div class="img-part-of-card">
+            <img class="card-img-top big-watch-img"  src="watch8.webp" alt="image" style="width: 75%; padding-left: 15%; padding-top: 10%;">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Model B-22</h5>
+            <p class="card-text">Amoled Display</p>
+            <p class="card-text">IP 68</p>
+            <p class="card-text">IP 68</p>
+            <a href="#" class="btn btn-outline-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- CARD 6 -->
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="card">
+          <div class="img-part-of-card">
+            <img class="card-img-top big-watch-img" src="watch6.jpg" alt="image">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Model A-20</h5>
+            <p class="card-text">Amoled Display</p>
+            <p class="card-text">IP 68</p>
+            <p class="card-text">IP 68</p>
+            <a href="#" class="btn btn-outline-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- CARD 7 -->
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="card">
+          <div class="img-part-of-card">
+            <img class="card-img-top big-watch-img" src="watch7.webp" alt="image" style="width: 75%; padding-left: 15%; padding-top: 10%;">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Model A-23</h5>
+            <p class="card-text">Amoled Display</p>
+            <p class="card-text">IP 68</p>
+            <p class="card-text">IP 68</p>
+            <a href="#" class="btn btn-outline-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      
+      <!-- CARD 8 -->
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="card">
+          <div class="img-part-of-card">
+            <img class="card-img-top big-watch-img" src="watch8.webp" alt="image">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Model C-20</h5>
+            <p class="card-text">Amoled Display</p>
+            <p class="card-text">IP 68</p>
+            <p class="card-text">IP 68</p>
+            <a href="#" class="btn btn-outline-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>   
+       
+
+    
+
+<!-- JAVASCRIPT LINK -->
+<script src="index.js"></script>
+</body>
+</html>
